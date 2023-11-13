@@ -21,3 +21,4 @@ use App\Users\Controllers\RegisterUserController;
 
 
 Route::post('/signup', RegisterUserController::class);
+

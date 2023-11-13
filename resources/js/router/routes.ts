@@ -1,7 +1,7 @@
 export const ROUTES = {
   base: "/",
   signUp: "/signup",
-  login: "/login",
+  logIn: "/login",
   projects: "/projects",
   deployments: "/deployments",
   activity: "/activity",

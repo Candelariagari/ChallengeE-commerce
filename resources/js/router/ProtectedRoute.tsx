@@ -7,7 +7,7 @@ import { ROUTES } from "./routes";
 type UserState = "loggedIn" | "loggedOut";
 const HOME = {
   loggedIn: ROUTES.base,
-  loggedOut: ROUTES.login,
+  loggedOut: ROUTES.logIn,
 } as const;
 
 export const ProtectedRoute = ({

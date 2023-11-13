@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
+import LogIn from "@/screens/LogIn";
 // import type { Location } from "react-router-dom";
 
 // import { Layout } from "@/layout";
@@ -19,6 +20,7 @@ export const Router = () => {
     <div>
       <Routes>
         <Route element={<SignUp />} path={ROUTES.signUp} />
+        <Route element={<LogIn />} path={ROUTES.logIn} />
       </Routes>
     </div>
     // <div>
